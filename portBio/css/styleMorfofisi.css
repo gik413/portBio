@@ -1,0 +1,179 @@
+body{
+    background-color: rgb(31, 27, 24);
+    background-size: cover;
+ }
+
+
+
+header{
+    background-image: url("../img/morfofisiologia/headerMorfofisiologia.jpg");
+    background-size: cover;
+    height: 250px;
+}
+
+
+h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: rgb(43, 38, 34);
+    text-align: left;
+    padding-right: 125px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; 
+ }
+
+
+ h2{
+    font-size: 75px;
+    font-weight: bold;
+    color: rgb(182, 170, 160);
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; 
+ 
+
+ }
+
+
+
+
+ h3{
+    font-weight: lighter;
+    color: rgb(241, 229, 215);
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+h4{
+    font-weight: lighter;
+    color: rgb(241, 229, 215); 
+    font-size: 15px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+#divisoria{
+    background-color: bisque;
+    height: 10px;
+    width: 100%;
+}
+
+
+
+
+#texto{   
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+
+
+
+
+.lugar {
+    padding-left: 2%;
+    float:left;
+    margin: 15px;
+  }
+
+.row{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+
+}
+
+.caixa{
+    background-color:rgb(241, 229, 215); ;
+}
+
+
+.container{
+    background-color: rgb(194, 188, 175);
+    border-radius: 20%;
+    width: 200px;
+    height: 250px;
+}
+
+#container1{
+    background-image: url("../img/morfofisiologia/capaDigestorio.jpg");
+    background-size: cover;
+}
+
+#container2{
+    background-image: url("../img/morfofisiologia/capaRespiratorio.jpg");
+    background-size: cover;
+}
+
+#container3{
+    background-image: url("../img/morfofisiologia/capaExcretor.jpg");
+    background-size: cover;
+}
+
+#container4{
+    background-image: url("../img/morfofisiologia/capaCirculatorio.jpg");
+    background-size: cover;
+}
+
+#container5{
+    background-image: url("../img/morfofisiologia/capaNervoso.jpg");
+    background-size: cover;
+}
+
+
+
+#linhas{
+    padding-left: 50x;
+    padding-right: 50px;
+    display: inline-block;
+}
+ 
+
+
+
+#imagens{
+    display: inline-block;
+}
+
+
+#imagem{
+    padding-right: 20px;
+    float: inline-start;
+}
+
+
+
+
+
+#imagemDireita {
+    
+    float: inline-end;
+
+}
+
+
+
+#textoEsquerda{
+    
+    width: 60%;
+    float: inline-start;
+}
+
+
+
+#imagemEsquerda{
+    
+    float: inline-start;
+}
+
+
+#textoDireita{
+    
+    width: 60%;
+    float: inline-end;
+}

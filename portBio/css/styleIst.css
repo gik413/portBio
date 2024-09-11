@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(31, 27, 24);
+    background-size: cover;
+ }
+
+
+
+header{
+    background-image: url("../img/IST/headerIST.jpg");
+    background-size: cover;
+    height: 225px;
+}
+
+
+
+#divisoria{
+    background-color: bisque;
+    height: 10px;
+    width: 100%;
+}
+
+
+
+
+#texto{   
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ }
+
+
+
+ i{
+    font-style: italic;
+ }
+
+
+
+
+ h1{
+    font-size: 75px;
+    font-weight: bold;
+    color: rgb(216, 205, 198);
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #2c2722;
+    text-align: right;
+    padding-right: 150px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ; 
+ }
+
+
+
+
+ h3{
+    font-weight: lighter;
+    color: rgb(241, 229, 215);
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+h4{
+    font-weight: lighter;
+    color: rgb(241, 229, 215); 
+    font-size: 15px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+
+
+#linhas{
+    padding-left: 70px;
+    padding-right: 70px;
+    display: inline-block;
+}
+ 
+
+
+
+#imagens{
+    display: inline-block;
+}
+
+
+#imagem{
+    padding-right: 20px;
+    float: inline-start;
+}
+
+
+
+
+
+#imagemDireita {
+    
+    float: inline-end;
+
+}
+
+
+
+#textoEsquerda{
+    
+    width: 60%;
+    float: inline-start;
+}
+
+
+
+#imagemEsquerda{
+    
+    float: inline-start;
+}
+
+
+#textoDireita{
+    
+    width: 60%;
+    float: inline-end;
+}
